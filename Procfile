@@ -1,2 +1,2 @@
-web: bundle exec python app.py -p $PORT
+web:python app.py
 heroku ps:scale web=1
